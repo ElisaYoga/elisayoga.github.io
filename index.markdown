@@ -26,7 +26,7 @@ layout: home
 			</div>
 			<figure class="img-with-subtitle">
 				<img src="/assets/imgs/queen.png">
-				<figcaption>
+				<figcaption class="caption caption-left">
 					<p>B.K.S. Iyengar beim Unterricht mit der Königin von Belgien</p>
 					<p>Source: https://artsandculture.google.com/asset/the-queen-mother-of-belgium-performingshirasana/</p>
 				</figcaption>
@@ -39,12 +39,12 @@ layout: home
 	</div>
 	<div class="wrapper">
 		<div id="iyengars" class="text-with-image columns-2">
-			<div class="img-with-subtitle">
+			<figure class="img-with-subtitle">
 				<img src="/assets/imgs/geeta.png">
-				<div class="subtitle">
+				<figcaption class="caption caption-left">
 					<p>Yoga für die Frau, Geeta S. Iyengar</p>
-				</div>
-			</div>
+				</figcaption>
+			</figure>
 			<div class="text">
 				<h2>Die Iyengars</h2>
 				<p>Bellur Krishnamachar Sundararaja (B.K.S.) Iyengar war der Begründer dieses Yoga-Stils. Er unterstützte den Weg des modernen Yoga in den Westen. In vielen Jahren des Selbststudiums entwickelte er seinen eigenen Stil. Dieser gründet auf seiner unermüdlichen Genauigkeit und seines Perfektionismus der Yoga-Haltungen. Berühmt wurde er vor allem durch sein Buch „Licht auf Yoga“, dass 1966 erschien und über 200 asanas abbildet. Bis heute ist dieses Buch eine wichtige Grundlage für Yoga-Übende. Bis kurz vor seinem Tod übte und forschte B.K.S. Iyengar mehrere Stunden täglich in seinem Institut in Pune, Indien. Im August 2014 verstarb er im Alter von 96 Jahren.</p>
@@ -90,9 +90,9 @@ layout: home
 <section id="about">
 	<div class="wrapper">
 		<div id="about-me" class="text-with-image columns-2">
-			<div class="img-with-subtitle">
+			<figure class="img-with-subtitle">
 				<img src="/assets/imgs/Elisa.png">
-			</div>
+			</figure>
 			<div class="text">
 				<h2>Über mich</h2>
 				<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>
