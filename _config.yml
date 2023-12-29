@@ -34,32 +34,32 @@ theme: minima
 plugins:
   - jekyll-feed
 
-sections: [
-  {
-    id: kalender, 
-    alt: "Kalender"
-  },
-  {
-    id: iyengar, 
-    alt: "Kalender"
-  },
-  {
-    id: about, 
-    alt: "Kalender"
-  },
-  {
-    id: blog, 
-    alt: "Kalender"
-  },
-  {
-    id: newsletter, 
-    alt: "Kalender"
-  },
-  {
-    id: kasnudel, 
-    alt: "Kalender"
-  }
-]
+sections: {
+  left: [
+    {
+      id: kalender, 
+      alt: "Kalender"
+    },
+    {
+      id: iyengar, 
+      alt: "Kalender"
+    },
+    {
+      id: about, 
+      alt: "Kalender"
+    }
+  ],
+  right: [
+    {
+      id: newsletter, 
+      alt: "Kalender"
+    },
+    {
+      id: kasnudel, 
+      alt: "Kalender"
+    }
+  ]
+}
 
 focal_points: [
   {

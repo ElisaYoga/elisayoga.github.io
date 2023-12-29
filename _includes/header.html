@@ -11,14 +11,25 @@
     </label>
 
     <div class="page-links trigger">
-      {%- for section in site.sections -%}
-      <a class="page-link" href="{{ my_page.url | relative_url }}/#{{ section.id }}" onclick="
-      document.location.pathname == '/' && event.preventDefault() && event.stopPropagation(); 
-      getElementById('{{ section.id }}').scrollIntoView({ behavior: 'smooth' })">
-        <img src="/assets/nav-icons/{{ section.id }}.svg" alt="{{ section.alt }}" width="62.15" height="57.9">
-      </a>
-      {%- endfor -%}
-      <a class="btn-primary" style="border: 1px solid grey; border-radius: 12px; padding: 7px;">Book now</a>
+      <div class="left-wrapper">
+        {%- for section in site.sections.left -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}/#{{ section.id }}" onclick="
+        document.location.pathname == '/' && event.preventDefault() && event.stopPropagation(); 
+        getElementById('{{ section.id }}').scrollIntoView({ behavior: 'smooth' })">
+          <img src="/assets/nav-icons/{{ section.id }}.svg" alt="{{ section.alt }}" width="62.15" height="57.9">
+        </a>
+        {%- endfor -%}
+      </div>
+      <div class="right-wrapper">
+        {%- for section in site.sections.right -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}/#{{ section.id }}" onclick="
+        document.location.pathname == '/' && event.preventDefault() && event.stopPropagation(); 
+        getElementById('{{ section.id }}').scrollIntoView({ behavior: 'smooth' })">
+          <img src="/assets/nav-icons/{{ section.id }}.svg" alt="{{ section.alt }}" width="62.15" height="57.9">
+        </a>
+        {%- endfor -%}
+        <a class="btn-primary" style="border: 1px solid grey; border-radius: 12px; padding: 7px;">Book now</a>
+      </div>
     </div>
   </nav>
 </header>
