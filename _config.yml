@@ -65,14 +65,20 @@ focal_points: [
   {
     title: "Stehstellungen",
     asana: "Utthita Trikonasana",
-    image: "utthita_trikonasana.png",
+    image: "utthita_trikonasana_rounded.png",
     description: "Im Iyengar Yoga bilden die Stehhaltungen die Grundlage für alle weiteren Yogahaltungen.
 Stehhaltungen kräftigen die Beine, aktivieren den Kreislauf und stabilisieren die Stimmung."
   },
   {
     title: "Vorwärtsstreckungen",
     asana: "Parsvotanasana",
-    image: "parsvotanasana.png",
+    image: "utthita_trikonasana_rounded.png",
+    description: "Empty description."
+  },
+  {
+    title: "Drehungen",
+    asana: "Marichyasana III",
+    image: "utthita_trikonasana_rounded.png",
     description: "Empty description."
   }
 ]

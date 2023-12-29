@@ -88,7 +88,7 @@ h2 {
 }
 
 section {
-	padding-top: 50px;
+	padding: 50px 0;
 }
 
 section > h2 {
@@ -225,13 +225,24 @@ a {
 ************ Footer
 */
 .site-footer {
-	background-color: $text-color;
+	/*background-color: $text-color;*/
+	padding:0px;
 	* {
 		color: white !important;
 		text-decoration: none !important;
 		text-align: center;
 	} 
-	
+
+	#newsletter {
+		padding: 50px 0;
+		text-align: center;
+		background-image: url("/assets/imgs/steinchen-hell.svg"), url("/assets/imgs/yogamatte-hell.svg");
+	  background-position: 10% center, 80% center;
+	  background-repeat: no-repeat, no-repeat;
+	  background-size: contain;
+	  background-color: #50231B;
+	}
+
 	.footer-contact {
 		text-align: center;;
 		h2 {
@@ -244,6 +255,7 @@ a {
 	width: 100%;
 	text-align: center;
   padding: 50px 0px;
+  margin: 50px 0;
 }
 
 /*
@@ -273,12 +285,61 @@ a {
 }
 
 #masui-quote {
-	background-image: url("/assets/imgs/iyengar-zitat.svg"), url("/assets/imgs/steinchen-zitat.svg");
+	background-image: url("/assets/imgs/steinchen-hell.svg"), url("/assets/imgs/yogamatte-hell.svg");
   background-position: 10% center, 80% center;
   background-repeat: no-repeat, no-repeat;
   background-size: contain;
   background-color: #50231B;
   color: white;
+}
+
+#iyengar-focal-points {
+	text-align: center;
+	.inline-bullet-list {
+		.bullet {
+	    margin-right: 5px;
+		}
+		.bullet:not(:last-child)::after {
+	    content: '•';
+	    margin-left: 5px;
+	  }
+	}
+	.cards {
+		display: flex;
+		justify-content: space-around;
+		.card {
+			margin-right: 20px;
+			
+			.card-header {
+				width: 100%;
+				background: url("/assets/focal-points/card-top.png") no-repeat;
+				text-align: left;
+				color: black;
+				div {
+					padding: 15px 0 10px 15px;
+					h4 {
+						margin-bottom: 5px;
+						font-weight: 600;
+					}
+					h5 {
+						margin-bottom: 0px;
+					}
+				}
+			}
+			.card-image {
+				width: 100%;
+				position: relative;
+				.card-image-description {
+					position: absolute;
+					bottom: 0px;
+				}
+			}
+		}
+	}
+}
+
+#about {
+	background-color: #E9CE6D;
 }
 
 

@@ -60,9 +60,9 @@ layout: home
 	<div class="wrapper">
 		<div id="iyengar-focal-points">
 			<h2>Schwerpunkte</h2>
-			 <p>
+			 <p class="inline-bullet-list">
 			 	{%- for focal_point in site.focal_points -%}
-			 	<span class="focal_point">{{focal_point.title}}</span>
+			 	<span class="bullet">{{focal_point.title}}</span>
 				{%- endfor -%}
 			</p>
 			 <p>
@@ -70,13 +70,15 @@ layout: home
 			 </p>
 			 <div class="cards">
 			 	{%- for focal_point in site.focal_points -%}
-				 <div class="focal_point-card">
+				 <div class="card">
 				 	<div class="card-header">
-				 		<h3 class="card-title">{{ focal_point.titel }}</h3>
-				 		<h4 class="card-subtitle">{{ focal_point.asana }}</h4>
+				 		<div>
+					 		<h4 class="card-title">{{ focal_point.title }}</h4>
+					 		<h5 class="card-subtitle">{{ focal_point.asana }}</h5>
+					 	</div>
 				 	</div>
 				 	<div class="card-image">
-				 		<img href="/assets/focal-points/{{ focal_point.image }}"/>
+				 		<img src="/assets/focal-points/{{ focal_point.image }}"/>
 				 		<p class="card-image-description">{{ focal_point.description }}</p>
 				 	</div>
 				 </div>
@@ -86,15 +88,18 @@ layout: home
 	</div>
 </section>
 <section id="about">
-	<div id="about-me" class="text-with-image columns-2">
-		<div class="img-with-subtitle">
-			<img src="/assets/imgs/Elisa.png">
-		</div>
-		<div class="text">
-			<h2>Über mich</h2>
-			<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>
-			<p>Die Grundlagenausbildung habe ich bei Iyengar® Yoga Vienna im März 2022 bei Claudia Böhm und Elke Pichler abgeschlossen. Ich übe einerseits gerne selbstständig, treffe mich mit meinen Kolleg*innen zum Üben und unterrichte mit Freude.</p>
+	<div class="wrapper">
+		<div id="about-me" class="text-with-image columns-2">
+			<div class="img-with-subtitle">
+				<img src="/assets/imgs/Elisa.png">
+			</div>
+			<div class="text">
+				<h2>Über mich</h2>
+				<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>
+				<p>Die Grundlagenausbildung habe ich bei Iyengar® Yoga Vienna im März 2022 bei Claudia Böhm und Elke Pichler abgeschlossen. Ich übe einerseits gerne selbstständig, treffe mich mit meinen Kolleg*innen zum Üben und unterrichte mit Freude.</p>
+			</div>
 		</div>
 	</div>
 </section>
+
 
