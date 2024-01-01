@@ -8,6 +8,7 @@ layout: home
 <section id="landing">
 	{%- if(site.newsList) -%}
 	<div id="news-list">
+		<h3>Neuigkeiten</h3>
 		{%- for news in site.newsList -%}
 	 		<div class="news">
 	 			{%- if(news.title) -%}
