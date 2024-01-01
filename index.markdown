@@ -11,10 +11,12 @@ layout: home
 		{%- for news in site.newsList -%}
 	 		<div class="news">
 	 			{%- if(news.title) -%}
-	 			<h4>{{news.title}}</h4>
-	 			{%- endif -%}
-	 			{%- if(news.date) -%}
-	 			<h5>{{news.date}}</h5>
+	 			<div class="news-header">
+		 			<h4>{{news.title}}</h4>
+		 			{%- if(news.date) -%}
+		 			<h5>{{news.date}}</h5>
+		 			{%- endif -%}
+	 			</div>
 	 			{%- endif -%}
 	 			{%- if(news.description) -%}
 	 			<p>{{news.description}}</p>
