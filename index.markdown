@@ -6,6 +6,23 @@ layout: home
 ---
 
 <section id="landing">
+	{%- if(site.newsList) -%}
+	<div id="news-list">
+		{%- for news in site.newsList -%}
+	 		<div class="news">
+	 			{%- if(news.title) -%}
+	 			<h4>{{news.title}}</h4>
+	 			{%- endif -%}
+	 			{%- if(news.date) -%}
+	 			<h5>{{news.date}}</h5>
+	 			{%- endif -%}
+	 			{%- if(news.description) -%}
+	 			<p>{{news.description}}</p>
+	 			{%- endif -%}
+	 		</div>
+		{%- endfor -%}
+	</div>
+	{%- endif -%}
 	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true, "fade": true, "draggable": false, "pauseAutoPlayOnHover": false }'>
 		<img src="/assets/imgs/sirsana.png">
 		<img src="/assets/imgs/sirsana_2.png">

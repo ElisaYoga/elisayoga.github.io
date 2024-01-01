@@ -340,7 +340,25 @@ a {
 	}
 }
 
-
+@media screen and (min-width: $on-laptop) {
+	#news-list {
+		position: absolute;
+		top: 15%;
+		left: 0;
+		background-color: rgba(243,238,237, 0.75);
+		z-index: 50;
+		width: 30%;
+		padding: 50px;
+		h4 {
+			font-weight: bold;
+		}
+		.news {
+			border-bottom: 1px solid #c1c1c1;
+			margin-bottom: 20px;
+		}
+		overflow: hidden;
+	}
+}
 
 #iyengar-quote {
 	background-image: url("/assets/imgs/iyengar-zitat.svg");

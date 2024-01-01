@@ -78,6 +78,26 @@ Stehhaltungen kräftigen die Beine, aktivieren den Kreislauf und stabilisieren d
   }
 ]
 
+newsList: [
+  {
+    title: "Neue Klassen verfügbar",
+    datum: "12.1.2024",
+    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+  },
+  {
+    title: "Klasse fällt aus",
+    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+  },
+  {
+    datum: "20.12.2023",
+    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+  },
+  {
+    title: "Neue Klasse mit Susi",
+    datum: "5.1.2024"
+  },
+]
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
