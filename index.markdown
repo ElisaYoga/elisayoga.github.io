@@ -20,7 +20,7 @@ layout: home
 </section>
 <section id="about">
 	<div class="wrapper">
-		<div id="about-me" class="text-with-image columns-2">
+		<div id="about-me" class="text-with-image columns-2 vertical-center-items">
 			<figure class="img-with-subtitle">
 				<img src="/assets/imgs/Elisa.png">
 			</figure>
@@ -93,7 +93,7 @@ layout: home
 		<p class="quote-source">- Jaques S. Masui</p>
 	</div>
 	<div class="wrapper">
-		<div id="iyengars" class="text-with-image columns-2">
+		<div id="iyengars" class="text-with-image columns-2 vertical-center-items">
 			<figure class="img-with-subtitle">
 				<img src="/assets/imgs/geeta.png">
 				<figcaption class="caption caption-left">
