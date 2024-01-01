@@ -65,7 +65,7 @@ layout: home
 </section>
 <section id="iyengar">
 	<div id="iyengar-quote" class="quote">
-		<p class="quote-text">“Yoga ist die Methode, durch die der unruhige Geist beruhigt und die Energie in schöpferische Bahnen gelenkt wird.”</p>
+		<p class="quote-text">“Yoga ist die Methode, durch die der unruhige Geist beruhigt <br>und die Energie in schöpferische Bahnen gelenkt wird.”</p>
 		<p class="quote-source">- B.K.S. Iyengar</p>
 	</div>
 	<div class="wrapper">
@@ -89,7 +89,7 @@ layout: home
 		</div>
 	</div><!-- ./wrapper-->
 	<div id="masui-quote" class="quote">
-		<p class="quote-text">„Yoga ist nichts anderes als die volle Erfahrung des menschlichen Lebens; er ist eine Wissenschaft vom innerlich geeinten Menschen!“</p>
+		<p class="quote-text">„Yoga ist nichts anderes als die volle Erfahrung des menschlichen Lebens; <br>er ist eine Wissenschaft vom innerlich geeinten Menschen!“</p>
 		<p class="quote-source">- Jaques S. Masui</p>
 	</div>
 	<div class="wrapper">

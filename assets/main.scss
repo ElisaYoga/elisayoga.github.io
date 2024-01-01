@@ -8,7 +8,7 @@ $default-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
 $header-font-family: $default-font;
 $paragraph-font-family: $default-font;
 $button-font-family: $default-font;
-$text-color: #824949;
+$text-color: black;
 $background-color: #FFFCFC;
 @import "minima";
 
@@ -50,7 +50,7 @@ header .page-links {
 
 body {
   min-height: 100vh; /* enables full screen image above the fold */
-  background-color: #F8EADF;
+  background-color: #FFFFFF;
 }
 
 h1, h2, h3 {
@@ -254,10 +254,11 @@ a {
 		padding: 50px 0;
 		text-align: center;
 		background-image: url("/assets/imgs/yogamatte-hell.svg");
-	  background-position: right center;
+	  background-position: left center;
 	  background-repeat: no-repeat;
 	  background-size: contain;
-	  background-color: #50231B;
+	  background-color: #1E2B45;
+  	color: #F3EEED;
 	}
 
 	.footer-contact {
@@ -346,17 +347,17 @@ a {
   background-position: 10% center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #E9CE6D;
-  color: #50231B;
+  background-color: #426279;
+  color: #F3EEED;
 }
 
 #masui-quote {
-	background-image: url("/assets/imgs/yogamatte-hell.svg");
+	background-image: url("/assets/imgs/yogamatte-dunkel.svg");
   background-position: right center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #50231B;
-  color: white;
+  background-color: #F3EEED;
+  color: black;
 }
 
 #iyengar-focal-points {
@@ -415,7 +416,7 @@ a {
 }
 
 #about {
-	background-color: #E9CE6D;
+	background-color: #F3EEED;
 	background-image: url("/assets/imgs/uebermich-hell.svg");
   background-position: right top;
   background-repeat: no-repeat;
