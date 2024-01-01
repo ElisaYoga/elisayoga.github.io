@@ -41,21 +41,17 @@ sections: {
       alt: "Kalender"
     },
     {
-      id: iyengar, 
-      alt: "Kalender"
+      id: about, 
+      alt: "Über mich"
     },
     {
-      id: about, 
-      alt: "Kalender"
+      id: iyengar, 
+      alt: "Iyengar"
     }
   ],
   right: [
     {
       id: newsletter, 
-      alt: "Kalender"
-    },
-    {
-      id: kasnudel, 
       alt: "Kalender"
     }
   ]
