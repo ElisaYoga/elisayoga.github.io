@@ -58,23 +58,45 @@ sections: {
 
 focal_points: [
   {
-    title: "Stehstellungen",
-    asana: "Utthita Trikonasana",
-    image: "utthita_trikonasana_rounded.png",
+    title: "Stehhaltungen",
+    asana: "Ardha Chandrasana",
+    image: "image01039.png",
     description: "Im Iyengar Yoga bilden die Stehhaltungen die Grundlage für alle weiteren Yogahaltungen.
 Stehhaltungen kräftigen die Beine, aktivieren den Kreislauf und stabilisieren die Stimmung."
   },
   {
     title: "Vorwärtsstreckungen",
     asana: "Parsvotanasana",
-    image: "utthita_trikonasana_rounded.png",
-    description: "Empty description."
+    image: "image01564.png",
+    description: "Vorwärtsstreckungen dehnen den Rücken und die Beine, sie beruhigen die Gedanken und Gefühle."
   },
   {
     title: "Drehungen",
-    asana: "Marichyasana III",
-    image: "utthita_trikonasana_rounded.png",
-    description: "Empty description."
+    asana: "Parivrtta Parsvakonasana",
+    image: "image02280.png",
+    description: "Drehungen rotieren den Körper um seine Wirbelsäule. Sie stärken und dehnen zugleich Bauch- und Rückenmuskeln und unterstützen die Verdauung."
+  },
+  {
+    title: "Rückwärtsstreckungen",
+    asana: "Urdhva Dhanurasana",
+    image: "image00400.png",
+    description: "Rückwärtsstreckungen öffnen den Brustkorb und dehnen den Bauch. Sie aktivieren den Kreislauf, machen wach und können helfen Depressionen zu lindern.
+Die hier gezeigte Rückwärtsstreckung ist eine fortgeschrittene, es wird schrittweise darauf hingeführt."
+  },
+  {
+    title: "Umkehrhaltungen",
+    asana: "Adho Mukha Vrksasana",
+    image: "image05498.png",
+    description: "Umkehrhaltungen fördern die Durchblutung des Gehirns, aktivieren den Geist und wirken
+ausgleichend auf die Psyche. Besonders wichtig sind dabei der Kopf- und der Schulterstand. Der
+Schulterstand wird im Iyengar Yoga mit erhöhten Schultern geübt, damit die Halswirbelsäule
+entlasten wird."
+  },
+  {
+    title: "Regenerativ",
+    asana: "Sirsasana aus dem Seil",
+    image: "image06500.png",
+    description: "Regenerierende Haltungen führen zu einer Erholung des Körpers und des Geistes. Diese entspannenden und öffnen den Haltungen eignen sich dazu, Atemübungen (pranayama) vorzubereiten."
   }
 ]
 
@@ -98,6 +120,9 @@ newsList: [
   },
 ]
 
+slider: [
+  "image00289.jpeg", "image00400.jpeg", "image00735.jpeg"
+]
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -284,28 +284,18 @@ a {
 	background: #EEE;
 }
 
-.gallery-cell {
-	width: 66%;
-	height: 200px;
-	margin-right: 10px;
-	background: #8C8;
-	counter-increment: gallery-cell;
+.carousel-cell-image {
+  transition: opacity 700ms;
+  opacity: 0;
 }
 
-/* cell number */
-.gallery-cell:before {
-	display: block;
-	text-align: center;
-	content: counter(gallery-cell);
-	line-height: 200px;
-	font-size: 80px;
-	color: white;
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
 }
 
-.flickity-slider {
-  img {
-  	width: 100%;
-  }
+.flickity-viewport {
+	height: 100vh !important;
 }
 
 .flickity-button, .flickity-page-dots {
@@ -390,14 +380,17 @@ a {
 	  }
 	}
 	.cards {
-		display: flex;
+		margin-top: 50px;
+		display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
 		justify-content: space-around;
 		.card {
 			margin-right: 20px;
 			
 			.card-header {
 				width: 100%;
-				background: url("/assets/focal-points/card-top.png") no-repeat;
+				//background: url("/assets/imgs/focal-points/card-top.png") no-repeat;
 				text-align: left;
 				color: black;
 				div {

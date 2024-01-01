@@ -23,11 +23,14 @@ layout: home
 		{%- endfor -%}
 	</div>
 	{%- endif -%}
-	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true, "fade": true, "draggable": false, "pauseAutoPlayOnHover": false }'>
-		<img src="/assets/imgs/sirsana.png">
-		<img src="/assets/imgs/sirsana_2.png">
-		<img src="/assets/imgs/sirsana_3.png">
+	{%- if(site.slider) -%}
+	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": 3000, "imagesLoaded": true, "fade": true, "draggable": false, "pauseAutoPlayOnHover": false, "setGallerySize": false }'>
+		{%- for fileName in site.slider -%}
+		<img src="/assets/imgs/slider/{{ fileName }}">
+		{%- endfor -%}
 	</div>
+	{%- endif -%}
+
 </section>
 <section id="kalender">
 	<h2>Kalender</h2>
@@ -71,7 +74,7 @@ layout: home
 					 	</div>
 				 	</div>
 				 	<div class="card-image">
-				 		<img src="/assets/focal-points/{{ focal_point.image }}"/>
+				 		<img src="/assets/imgs/focal-points/{{ focal_point.image }}"/>
 				 		<p class="card-image-description">{{ focal_point.description }}</p>
 				 	</div>
 				 </div>
