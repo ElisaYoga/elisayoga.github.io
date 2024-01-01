@@ -253,9 +253,9 @@ a {
 	#newsletter {
 		padding: 50px 0;
 		text-align: center;
-		background-image: url("/assets/imgs/steinchen-hell.svg"), url("/assets/imgs/yogamatte-hell.svg");
-	  background-position: 10% center, right center;
-	  background-repeat: no-repeat, no-repeat;
+		background-image: url("/assets/imgs/yogamatte-hell.svg");
+	  background-position: right center;
+	  background-repeat: no-repeat;
 	  background-size: contain;
 	  background-color: #50231B;
 	}
@@ -342,18 +342,18 @@ a {
 
 
 #iyengar-quote {
-	background-image: url("/assets/imgs/iyengar-zitat.svg"), url("/assets/imgs/steinchen-zitat.svg");
-  background-position: 10% center, 80% center;
-  background-repeat: no-repeat, no-repeat;
+	background-image: url("/assets/imgs/iyengar-zitat.svg");
+  background-position: 10% center;
+  background-repeat: no-repeat;
   background-size: contain;
   background-color: #E9CE6D;
   color: #50231B;
 }
 
 #masui-quote {
-	background-image: url("/assets/imgs/steinchen-hell.svg"), url("/assets/imgs/yogamatte-hell.svg");
-  background-position: 10% center, right center;
-  background-repeat: no-repeat, no-repeat;
+	background-image: url("/assets/imgs/yogamatte-hell.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
   background-size: contain;
   background-color: #50231B;
   color: white;
