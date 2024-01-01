@@ -270,6 +270,7 @@ a {
 	text-align: center;
   padding: 50px 0px;
   margin: 50px 0;
+  font-size: 20px;
 }
 
 
@@ -305,6 +306,16 @@ a {
 	display: none;
 }
 
+.show-more {
+	transition: opacity 400ms ease-in-out;
+	display: none;
+	opacity: 0;
+	&.shown {
+		display: block;
+		opacity: 1;
+	}
+}
+
 /*
 ************ Landing page
 */
@@ -322,6 +333,8 @@ a {
     margin: auto;
 	}
 }
+
+
 
 #iyengar-quote {
 	background-image: url("/assets/imgs/iyengar-zitat.svg"), url("/assets/imgs/steinchen-zitat.svg");
