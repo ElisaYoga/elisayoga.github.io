@@ -6,6 +6,11 @@ layout: home
 ---
 
 <section id="landing">
+	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": true, "imagesLoaded": true, "fade": true, "draggable": false, "pauseAutoPlayOnHover": false }'>
+		<img src="/assets/imgs/sirsana.png">
+		<img src="/assets/imgs/sirsana_2.png">
+		<img src="/assets/imgs/sirsana_3.png">
+	</div>
 </section>
 <section id="kalender">
 	<h2>Kalender</h2>

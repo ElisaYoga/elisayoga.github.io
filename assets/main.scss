@@ -12,6 +12,7 @@ $text-color: #824949;
 $background-color: #FFFCFC;
 @import "minima";
 
+
 /*
   Theme overrides
  */
@@ -25,6 +26,7 @@ header.site-header {
 	top: 15px;
   border: 0px;
   width: 100%;
+  z-index: 999;
 }
 header.site-header .site-nav {
 	float: none;
@@ -270,14 +272,48 @@ a {
   margin: 50px 0;
 }
 
+
+.gallery {
+	background: #EEE;
+}
+
+.gallery-cell {
+	width: 66%;
+	height: 200px;
+	margin-right: 10px;
+	background: #8C8;
+	counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+	display: block;
+	text-align: center;
+	content: counter(gallery-cell);
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+}
+
+.flickity-slider {
+  img {
+  	width: 100%;
+  }
+}
+
+.flickity-button, .flickity-page-dots {
+	display: none;
+}
+
 /*
 ************ Landing page
 */
 
 #landing {
-  background: url("/assets/imgs/sirsana.png") no-repeat center center scroll;
-  background-size: cover;
+  /* background: url("/assets/imgs/sirsana.png") no-repeat center center scroll;
+  background-size: cover; */
   height: 100vh;
+  padding: 0;
 }
 
 #kalender {
