@@ -92,7 +92,7 @@ layout: home
 		<p class="quote-source">- B.K.S. Iyengar</p>
 	</div>
 	<div class="wrapper">
-		<div id="about-iyengar" class="text-with-image columns-2">
+		<div id="about-iyengar" class="text-with-image columns-2 vertical-center-items">
 			<div class="text">
 				<h2>Über Iyengar Yoga</h2>
 				<p>Grundlegend für den Stil des Iyengar® Yoga sind die Übung von Yogahaltungen (asanas) und Atemübungen (pranayama). Das regelmässige und präzise Praktizieren unter Anleitung schärft die Konzentration und führt zu innerer Ruhe.</p>
@@ -103,10 +103,9 @@ layout: home
 				<p class="show-more">Da es sich bei dieser Methode um eine sehr gut dokumentierte und reproduzierbare Methode handelt, bildet er eine gute Basis für wissenschaftliche Studien und Therapiemethoden. Hier findest du Informationen dazu: <a href="https://iyengar-yoga-berlin.de/yoga-forschung/" target="_blank">https://iyengar-yoga-berlin.de/yoga-forschung/</a></p>
 			</div>
 			<figure class="img-with-subtitle">
-				<img src="/assets/imgs/queen.png">
+				<img src="/assets/imgs/bks_iyengar_padma_mayurasana.jpeg">
 				<figcaption class="caption caption-left">
-					<p>B.K.S. Iyengar beim Unterricht mit der Königin von Belgien</p>
-					<p>Source: https://artsandculture.google.com/asset/the-queen-mother-of-belgium-performingshirasana/</p>
+					<p>Mayurasana, Licht auf Yoga</p>
 				</figcaption>
 			</figure>
 		</div>

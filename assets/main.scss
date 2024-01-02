@@ -235,6 +235,9 @@ a {
     &.vertical-center-items {
     	align-items: center;
     }
+    .img-with-subtitle:nth-child(2) {
+    	padding-left: 40px;
+    }
 	}
 }
 
@@ -388,11 +391,11 @@ a {
 	  }
 	}
 	.cards {
-		margin-top: 50px;
+		/*margin-top: 50px;
 		display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1em;
-		justify-content: space-around;
+		justify-content: space-around;*/
 		.card {
 			margin-right: 20px;
 			
@@ -415,6 +418,9 @@ a {
 			.card-image {
 				width: 100%;
 				position: relative;
+				img {
+					width: 100%;
+				}
 				.card-image-description {
 					position: absolute;
 					opacity: 0;
@@ -434,6 +440,28 @@ a {
 	}
 }
 
+@media screen and (min-width: $on-laptop) {
+	#iyengar-focal-points {
+		.cards {
+			margin-top: 50px;
+			display: grid;
+	    grid-template-columns: repeat(2, 1fr);
+	    grid-gap: 1em;
+			justify-content: space-around;
+		}
+	}
+}
+@media screen and (min-width: $on-laptop * 1.5) {
+	#iyengar-focal-points {
+		.cards {
+			margin-top: 50px;
+			display: grid;
+	    grid-template-columns: repeat(3, 1fr);
+	    grid-gap: 1em;
+			justify-content: space-around;
+		}
+	}
+}
 #about {
 	background-color: #F3EEED;
 	background-image: url("/assets/imgs/uebermich-hell.svg");
