@@ -110,6 +110,12 @@ layout: home
 			</figure>
 		</div>
 	</div><!-- ./wrapper-->
+	<div id="iyengar-video">
+		 <video width="1280" height="720" controls>
+		   <source src="/assets/videos/Iyengar-Yoga-Deutschland.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video> 
+	</div>
 	<div id="masui-quote" class="quote">
 		<p class="quote-text">„Yoga ist nichts anderes als die volle Erfahrung des menschlichen Lebens; <br>er ist eine Wissenschaft vom innerlich geeinten Menschen!“</p>
 		<p class="quote-source">- Jaques S. Masui</p>
