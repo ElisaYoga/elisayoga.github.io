@@ -239,6 +239,20 @@ a {
     	padding-left: 40px;
     }
 	}
+
+	.masonry {
+	  column-count: 2;
+	  column-gap: 30px;
+	  *  {
+		  margin: 0;
+		  display: grid;
+		  grid-template-rows: 1fr auto;
+		  margin-bottom: 10px;
+		  break-inside: avoid;
+		}
+	}
+
+	
 }
 
 /*
@@ -298,7 +312,7 @@ a {
 }
 
 .flickity-viewport {
-	height: 100vh !important;
+	height: 80vh !important;
 }
 
 .flickity-button, .flickity-page-dots {
@@ -322,7 +336,7 @@ a {
 #landing {
   /* background: url("/assets/imgs/sirsana.png") no-repeat center center scroll;
   background-size: cover; */
-  height: 100vh;
+  /*height: 100vh;*/
   padding: 0;
 }
 
@@ -334,27 +348,28 @@ a {
 }
 
 @media screen and (min-width: $on-laptop) {
+	#news-section {
+		width: 100%;
+		background-color: rgba(243, 238, 237, 0.75);
+	}
 	#news-list {
-		position: absolute;
-		top: 15%;
-		left: 0;
-		background-color: rgba(243,238,237, 0.75);
-		z-index: 50;
-		width: 30%;
-		padding: 50px;
 		h4 {
 			font-weight: bold;
 		}
+
 		.news-header {
 			display: flex;
 	    align-content: center;
-	    justify-content: space-between;
 	    h4, h5 {
 	    	display: inline;
 	    }
+	    .news-date {
+				margin-left: auto;
+				margin-right: 20px;
+	    }
 		}
 		.news {
-			border-top: 1px solid #c1c1c1;
+			/*border-top: 1px solid #c1c1c1;*/
 			padding-top: 10px;
 		}
 		overflow: hidden;

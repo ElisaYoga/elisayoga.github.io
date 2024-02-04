@@ -6,26 +6,6 @@ layout: home
 ---
 
 <section id="landing">
-	{%- if(site.newsList) -%}
-	<div id="news-list">
-		<h3>Neuigkeiten</h3>
-		{%- for news in site.newsList -%}
-	 		<div class="news">
-	 			{%- if(news.title) -%}
-	 			<div class="news-header">
-		 			<h4>{{news.title}}</h4>
-		 			{%- if(news.date) -%}
-		 			<h5>{{news.date}}</h5>
-		 			{%- endif -%}
-	 			</div>
-	 			{%- endif -%}
-	 			{%- if(news.description) -%}
-	 			<p>{{news.description}}</p>
-	 			{%- endif -%}
-	 		</div>
-		{%- endfor -%}
-	</div>
-	{%- endif -%}
 	{%- if(site.slider) -%}
 	<div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": 3000, "imagesLoaded": true, "fade": true, "draggable": false, "pauseAutoPlayOnHover": false, "setGallerySize": false }'>
 		{%- for fileName in site.slider -%}
@@ -35,6 +15,30 @@ layout: home
 	{%- endif -%}
 
 </section>
+{%- if(site.newsList) -%}
+<section id="news-section">
+	<div class="wrapper">
+		<h2>Neuigkeiten</h2>
+		<div id="news-list" class="masonry">
+			{%- for news in site.newsList -%}
+		 		<div class="news">
+		 			<div class="news-header">
+			 			{%- if(news.title) -%}
+			 			<h4>{{news.title}}</h4>
+			 			{%- endif -%}
+			 			{%- if(news.date) -%}
+			 			<h5 class="news-date">{{news.date}}</h5>
+			 			{%- endif -%}
+		 			</div>
+		 			{%- if(news.description) -%}
+		 			<p>{{news.description}}</p>
+		 			{%- endif -%}
+		 		</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</section>
+{%- endif -%}
 <section id="kalender">
 	<h2>Kalender</h2>
 	<div class="kalender">
