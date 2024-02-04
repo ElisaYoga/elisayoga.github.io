@@ -312,7 +312,14 @@ a {
 }
 
 .flickity-viewport {
-	height: 80vh !important;
+	height: 90vh !important;
+	.flickity-slider {
+		img {
+    	max-height: 100%;
+	    height: auto;
+	    max-width: none;
+		}
+	}
 }
 
 .flickity-button, .flickity-page-dots {
