@@ -258,31 +258,28 @@ a {
 /*
 ************ Footer
 */
-.site-footer {
+#footer {
+	background-image: url("/assets/imgs/yogamatte-hell.svg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #1E2B45;
+	color: #F3EEED;
 	/*background-color: $text-color;*/
-	padding:0px;
+	padding: 0 0 20px 0;
 	* {
 		color: white !important;
 		text-decoration: none !important;
 		text-align: center;
 	} 
 
-	#newsletter {
+	.newsletter {
 		padding: 50px 0;
 		text-align: center;
-		background-image: url("/assets/imgs/yogamatte-hell.svg");
-	  background-position: left center;
-	  background-repeat: no-repeat;
-	  background-size: contain;
-	  background-color: #1E2B45;
-  	color: #F3EEED;
 	}
 
-	.footer-contact {
-		text-align: center;;
-		h2 {
-			font-size: 26px;
-		}
+	.legal-pages {
+		text-align: left;
 	}
 }
 
@@ -347,10 +344,11 @@ a {
   padding: 0;
 }
 
-#kalender {
-	.kalender {
-		width: 65%;
-    margin: auto;
+#calendar {
+	.calendar {
+		iframe {
+			border: 0px;
+		}
 	}
 }
 
@@ -497,5 +495,12 @@ a {
   background-size: contain;
 }
 
-
+#impressum {
+	h3 {
+		margin-top: 20px;
+		margin-bottom: 5px;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+}
 

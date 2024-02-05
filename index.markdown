@@ -39,10 +39,10 @@ layout: home
 	</div>
 </section>
 {%- endif -%}
-<section id="kalender">
+<section id="calendar">
 	<h2>Kalender</h2>
-	<div class="kalender">
-		<iframe width="100%" height="600" src="https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=site&amp;lang=en"></iframe>
+	<div class="wrapper calendar">
+		<iframe width="100%" height="600" src="https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=elisayoga.at&amp;lang=de"></iframe>
 	</div>
 </section>
 <section id="about">

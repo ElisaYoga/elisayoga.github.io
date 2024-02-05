@@ -1,24 +1,16 @@
-<footer id="contact" class="site-footer h-card">
+<footer id="footer" class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div id="newsletter">
-    <h2>Melde dich zu meinem Newsletter an</h2>
-    <a class="btn-primary" href="{{ site.newsletter }}" target="_blank">Zum Newsletter</a>
-  </div>
-  <div class="wrapper">
-    
-    <!--
-    <div class="footer-contact">
-      <h2 class="footer-heading">Say hi</h2>
-      <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  <div class="wrapper">  
+    <div class="newsletter">
+      <h2>Melde dich zu meinem Newsletter an</h2>
+      <a class="btn-primary" href="{{ site.newsletter }}" target="_blank">Zum Newsletter</a>
+    </div>
+    <div class="legal-pages">
       {%- for my_page in site.legal_pages -%}
-        {%- if my_page.title -%}
         <div class="legal-page">
           <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
         </div>
-        {%- endif -%}
       {%- endfor -%}
     </div>
-    -->
   </div>
 </footer>

@@ -18,12 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Yoga für groß und klein
+title: "Yoga für groß und klein"
 description: >- # this means to ignore newlines until "baseurl:"
   Elisa Yoga für groß und klein
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elisayoga.at/" # the base hostname & protocol for your site, e.g. http://example.com
 newsletter: "http://eepurl.com/iG65VQ"
+impressum: {
+  name: "Elisa Gritsch",
+  email: "info@elisayoga.at",
+  purpose: "Yoga Unterricht",
+  address: {
+    city: "1010 Wien",
+    street: "Wollzeile 12/1/21"
+  },
+  uid: "??"
+}
 
 # Build settings
 theme: minima
@@ -120,6 +130,11 @@ newsList: [
 slider: [
   "image00289.jpeg", "image00400.jpeg", "image00735.jpeg"
 ]
+
+collections:
+  legal_pages:
+    output: true
+    permalink: /legal/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
