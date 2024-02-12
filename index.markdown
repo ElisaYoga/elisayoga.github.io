@@ -49,7 +49,7 @@ layout: home
 	<div class="wrapper">
 		<div id="about-me" class="text-with-image columns-2 vertical-center-items">
 			<figure class="img-with-subtitle">
-				<img src="/assets/imgs/Elisa.png">
+				<img class="rounded-corners" src="/assets/imgs/Elisa.png">
 			</figure>
 			<div class="text">
 				<h2>Über mich</h2>
@@ -81,7 +81,7 @@ layout: home
 					 	</div>
 				 	</div>
 				 	<div class="card-image">
-				 		<img src="/assets/imgs/focal-points/{{ focal_point.image }}"/>
+				 		<img class="single-rounded-corner" src="/assets/imgs/focal-points/{{ focal_point.image }}"/>
 				 		<p class="card-image-description">{{ focal_point.description }}</p>
 				 	</div>
 				 </div>
@@ -107,7 +107,7 @@ layout: home
 				<p class="show-more">Da es sich bei dieser Methode um eine sehr gut dokumentierte und reproduzierbare Methode handelt, bildet er eine gute Basis für wissenschaftliche Studien und Therapiemethoden. Hier findest du Informationen dazu: <a href="https://iyengar-yoga-berlin.de/yoga-forschung/" target="_blank">https://iyengar-yoga-berlin.de/yoga-forschung/</a></p>
 			</div>
 			<figure class="img-with-subtitle">
-				<img src="/assets/imgs/bks_iyengar_padma_mayurasana.jpeg">
+				<img class="rounded-corners" src="/assets/imgs/bks_iyengar_padma_mayurasana.jpeg">
 				<figcaption class="caption caption-left">
 					<p>Mayurasana, Licht auf Yoga</p>
 				</figcaption>
@@ -127,7 +127,7 @@ layout: home
 	<div class="wrapper">
 		<div id="iyengars" class="text-with-image columns-2 vertical-center-items">
 			<figure class="img-with-subtitle">
-				<img src="/assets/imgs/geeta.png">
+				<img class="rounded-corners" src="/assets/imgs/geeta.png">
 				<figcaption class="caption caption-left">
 					<p>Yoga für die Frau, Geeta S. Iyengar</p>
 				</figcaption>

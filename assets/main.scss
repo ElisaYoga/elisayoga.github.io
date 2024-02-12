@@ -21,23 +21,28 @@ $background-color: #FFFCFC;
  * Header
  */
 
-header.site-header {
-	position: absolute;
-	top: 15px;
-  border: 0px;
-  width: 100%;
-  z-index: 999;
+header {
+	.btn-primary {
+		border-radius: 12px; 
+		padding: 12px;
+	}
+	&.site-header {
+		position: absolute;
+		top: 15px;
+	  border: 0px;
+	  width: 100%;
+	  z-index: 999;
+	  .site-nav {
+			float: none;
+		}
+		.page-links {
+			display: flex;
+		  justify-content: space-around;
+		  align-items: center;
+		  flex-wrap: nowrap;
+		}
+	}
 }
-header.site-header .site-nav {
-	float: none;
-}
-header .page-links {
-	display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
 /*
 @media screen and (min-width: $on-laptop * 2) {
 	.wrapper {
@@ -255,6 +260,14 @@ a {
 	
 }
 
+.single-rounded-corner {
+	border-radius: 0 0 60px 0;
+}
+
+.rounded-corners {
+	border-radius: 60px 0 60px 0;
+}
+
 /*
 ************ Footer
 */
@@ -273,7 +286,7 @@ a {
 		text-align: center;
 	} 
 
-	.newsletter {
+	#newsletter {
 		padding: 50px 0;
 		text-align: center;
 	}
