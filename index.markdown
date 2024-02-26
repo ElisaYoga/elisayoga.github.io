@@ -42,7 +42,7 @@ layout: home
 <section id="calendar">
 	<h2>Kalender</h2>
 	<div class="wrapper calendar">
-		<iframe width="100%" height="600" src="https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=elisayoga.at&amp;lang=de"></iframe>
+		<iframe width="100%" height="900" src="https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=elisayoga.at&amp;lang=de"></iframe>
 	</div>
 </section>
 <section id="about">
@@ -54,8 +54,18 @@ layout: home
 			<div class="text">
 				<h2>Über mich</h2>
 				<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>
+			</div>
+		</div>
+		<div class="text-with-image columns-2 vertical-center-items">
+			<div class="text">
 				<p>Die Grundlagenausbildung habe ich bei Iyengar® Yoga Vienna im März 2022 bei Claudia Böhm und Elke Pichler abgeschlossen. Ich übe einerseits gerne selbstständig, treffe mich mit meinen Kolleg*innen zum Üben und unterrichte mit Freude.</p>
 			</div>
+			<figure class="img-with-subtitle">
+				<img class="rounded-corners" src="/assets/imgs/image1.jpeg">
+				<figcaption class="caption caption-left">
+					<p>Copyright: Eva Maria Krügerl / Hearthfire</p>
+				</figcaption>
+			</figure>
 		</div>
 	</div>
 </section>
@@ -115,7 +125,7 @@ layout: home
 		</div>
 	</div><!-- ./wrapper-->
 	<div id="iyengar-video">
-		 <video width="1280" height="720" controls>
+		 <video width="1280" height="720" poster="/assets/imgs/video-thumbnail.jpeg" controls>
 		   <source src="/assets/videos/Iyengar-Yoga-Deutschland.mp4" type="video/mp4">
 			Your browser does not support the video tag.
 		</video> 

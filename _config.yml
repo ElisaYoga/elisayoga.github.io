@@ -53,14 +53,13 @@ sections: {
     {
       id: iyengar, 
       alt: "Iyengar"
-    }
-  ],
-  right: [
+    },
     {
       id: newsletter, 
       alt: "Kalender"
     }
-  ]
+  ],
+  right: []
 }
 
 focal_points: [

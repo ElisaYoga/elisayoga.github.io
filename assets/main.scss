@@ -43,6 +43,15 @@ header {
 		}
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.site-nav {
+		.right-wrapper {
+			display: none;
+		}
+	}
+}
+
 /*
 @media screen and (min-width: $on-laptop * 2) {
 	.wrapper {
@@ -166,6 +175,10 @@ a {
 	&:visited {
 		filter: brightness(0.70);
 	}
+}
+
+video {
+	max-width: 100%
 }
 
 .btn-primary {
