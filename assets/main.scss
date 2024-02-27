@@ -10,6 +10,7 @@ $paragraph-font-family: $default-font;
 $button-font-family: $default-font;
 $text-color: black;
 $background-color: #FFFCFC;
+$secondary-background-color: rgb(243, 238, 237);
 @import "minima";
 
 
@@ -311,12 +312,11 @@ video {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #1E2B45;
-	color: #F3EEED;
-	/*background-color: $text-color;*/
+  background-color: $secondary-background-color;
+	color: $text-color;
 	padding: 0 0 20px 0;
 	* {
-		color: white !important;
+		color: $text-color;
 		text-decoration: none !important;
 		text-align: center;
 	} 
@@ -403,7 +403,7 @@ video {
 @media screen and (min-width: $on-laptop) {
 	#news-section {
 		width: 100%;
-		background-color: rgba(243, 238, 237, 0.75);
+		background-color: $secondary-background-color;
 	}
 	#news-list {
 		h4 {
@@ -439,8 +439,8 @@ video {
   background-position: 10% center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #426279;
-  color: #F3EEED;
+  background-color: $secondary-background-color;
+  color: $text-color;
 }
 
 #masui-quote {
@@ -448,8 +448,8 @@ video {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #F3EEED;
-  color: black;
+  background-color: $secondary-background-color;
+  color: $text-color;
 }
 
 #iyengar-focal-points {
@@ -536,7 +536,7 @@ video {
 	}
 }
 #about {
-	background-color: #F3EEED;
+	background-color: $secondary-background-color;
 	background-image: url("/assets/imgs/uebermich-hell.svg");
   background-position: right top;
   background-repeat: no-repeat;
