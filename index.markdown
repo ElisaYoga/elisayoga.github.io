@@ -54,18 +54,8 @@ layout: home
 			<div class="text">
 				<h2>Über mich</h2>
 				<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>
-			</div>
-		</div>
-		<div class="text-with-image columns-2 vertical-center-items">
-			<div class="text">
 				<p>Die Grundlagenausbildung habe ich bei Iyengar® Yoga Vienna im März 2022 bei Claudia Böhm und Elke Pichler abgeschlossen. Ich übe einerseits gerne selbstständig, treffe mich mit meinen Kolleg*innen zum Üben und unterrichte mit Freude.</p>
 			</div>
-			<figure class="img-with-subtitle">
-				<img class="rounded-corners" src="/assets/imgs/image1.jpeg">
-				<figcaption class="caption caption-left">
-					<p>Copyright: Eva Maria Krügerl / Hearthfire</p>
-				</figcaption>
-			</figure>
 		</div>
 	</div>
 </section>
