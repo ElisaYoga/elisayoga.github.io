@@ -40,14 +40,36 @@ header {
 		  justify-content: space-around;
 		  align-items: center;
 		  flex-wrap: nowrap;
+		  .page-link {
+	    	.page-link-img {
+	    		width: 62.15px;
+	    		height: 85px;
+	    	}
+	    }
 		}
 	}
 }
 
 @media screen and (max-width: 600px) {
-	.site-nav {
-		.right-wrapper {
-			display: none;
+header.site-header {
+	.site-nav { 
+			position: inherit;
+	    top: auto;
+	    right: auto;
+	    background-color: transparent;
+	    border: none;
+	    text-align: left;
+	    .page-link {
+	    	margin-left: 10px;
+	    	display: inline;
+	    	.page-link-img {
+	    		width: 46.6125px;
+	    		height: 63.75px;
+	    	}
+	    }
+			.right-wrapper {
+				display: none;
+			}
 		}
 	}
 }
@@ -178,7 +200,7 @@ a {
 }
 
 video {
-	max-width: 100%
+	max-width: 100%;
 }
 
 .btn-primary {
