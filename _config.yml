@@ -49,11 +49,14 @@ slider_image_urls: [
 news_section: {
   title: "Neuigkeiten",
   news: [
-  # Remove hashtags and this line to add a news entry
   #  {
   #    title: "Neue Klassen verfügbar",
   #    date: "12.1.2024",
   #    description: "Neue Klassen verfügbar - sehr kurz."
+  #  },
+  #  {
+  #    title: "Neue Webseite",
+  #    description: "Die Seite ist endlich online - hooray"
   #  }
   ]
 }
