@@ -54,15 +54,13 @@ header {
 @media screen and (max-width: 600px) {
 header.site-header {
 	.site-nav { 
-			position: inherit;
-	    top: auto;
-	    right: auto;
+
 	    background-color: transparent;
 	    border: none;
 	    text-align: left;
 	    .page-link {
 	    	margin-left: 10px;
-	    	display: inline;
+	    	display: block;
 	    	.page-link-img {
 	    		width: 46.6125px;
 	    		height: 63.75px;
