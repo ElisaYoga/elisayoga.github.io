@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Content
+
 title: "Yoga für groß und klein"
 description: >- # this means to ignore newlines until "baseurl:"
   Elisa Yoga für groß und klein
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elisayoga.at/" # the base hostname & protocol for your site, e.g. http://example.com
-newsletter: "http://eepurl.com/iG65VQ"
 impressum: {
   name: "Elisa Gritsch",
   email: "info@elisayoga.at",
@@ -32,15 +33,32 @@ impressum: {
     city: "1010 Wien",
     street: "Wollzeile 12/1/21"
   },
-  uid: "ATU73953206"
+  uid: "ATU73953206",
+  memberships: "Mitglied der WKÖ, WKW",
+  ecg_authority: "Magistratisches Bezirksamt des XII. Bezirkes",
+  legislation: "Gewerbeordnung abrufbar unter <a href='https://www.ris.bka.gv.at/' target='_BLANK'>https://www.ris.bka.gv.at/</a>",
+  complaints: "Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: <a href='http://ec.europa.eu/odr' target='_BLANK'>http://ec.europa.eu/odr</a>. <br>
+  Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten."
+}
+slider_image_urls: [
+  "image00289.jpeg", 
+  "image00400.jpeg", 
+  "image00735.jpeg"
+]
+
+news_section: {
+  title: "Neuigkeiten",
+  news: [
+  # Remove hashtags and this line to add a news entry
+  #  {
+  #    title: "Neue Klassen verfügbar",
+  #    date: "12.1.2024",
+  #    description: "Neue Klassen verfügbar - sehr kurz."
+  #  }
+  ]
 }
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-sections: {
+navigation: {
   left: [
     {
       id: calendar, 
@@ -59,76 +77,130 @@ sections: {
       alt: "Kalender"
     }
   ],
-  right: []
+  right: {
+    button_booking: "Buchen"
+  }
 }
 
-focal_points: [
-  {
-    title: "Stehhaltungen",
-    asana: "Ardha Chandrasana",
-    image: "image01039.png",
-    description: "Im Iyengar Yoga bilden die Stehhaltungen die Grundlage für alle weiteren Yogahaltungen.
-Stehhaltungen kräftigen die Beine, aktivieren den Kreislauf und stabilisieren die Stimmung."
+calendar_section: {
+  title: "Kalender",
+  calendar_url: "https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=elisayoga.at&amp;lang=de"
+}
+
+about_section: {
+  image: {
+    url: "/assets/imgs/Elisa.png"
   },
-  {
-    title: "Vorwärtsstreckungen",
-    asana: "Parsvotanasana",
-    image: "image01564.png",
-    description: "Vorwärtsstreckungen dehnen den Rücken und die Beine, sie beruhigen die Gedanken und Gefühle."
+  title: "Über mich",
+  paragraphs_html: [
+    "<p>Ich heiße Elisa Gritsch und beschäftige mich seit 2017 mit Iyengar® Yoga. Eine gute Freundin hat mich dazu gebracht! Mich begeistert es Übungen gezielt auf bestimmte Körperteile auszurichten und dabei physische und psychische Bereiche zu stärken. Zuerst hat mich der lange Ausbildungsprozess abgeschreckt, aber einmal damit begonnen, lässt mich die Perfektion des Iyengar® Yoga nicht mehr los. Als Naturwissenschafterin finde ich Faszination in den vielen Feinheiten des Iyengar® Yoga und darin sich in seinem Tempo weiterzuentwickeln, ohne Langeweile zu verspüren.</p>",
+    "<p>Die Grundlagenausbildung habe ich bei Iyengar® Yoga Vienna im März 2022 bei Claudia Böhm und Elke Pichler abgeschlossen. Ich übe einerseits gerne selbstständig, treffe mich mit meinen Kolleg*innen zum Üben und unterrichte mit Freude.</p>"
+  ]
+}
+
+focal_points_section: {
+  title: "Schwerpunkte",
+  text: "Im Iyengar Yoga üben wir jeder Woche andere Gruppen von asanas, um den Körper gezielt zu trainieren und vorzubereiten. Es gibt die Unterteilung in Stehhaltungen, Vorwärtsstreckungen und Drehungen, Rückwärtsstreckungen und regenerative Haltungen mit Atemübungen (pranayama). Manchmal werden auch Armbalancen geübt, aber meistens nur mit Fortgeschrittenen. Umkehrhaltungen sind in jeder Einheit dabei.",
+  focal_points: [
+    {
+      title: "Stehhaltungen",
+      asana: "Ardha Chandrasana",
+      image_url: "/assets/imgs/focal-points/image01039.png",
+      description: "Im Iyengar Yoga bilden die Stehhaltungen die Grundlage für alle weiteren Yogahaltungen.
+  Stehhaltungen kräftigen die Beine, aktivieren den Kreislauf und stabilisieren die Stimmung."
+    },
+    {
+      title: "Vorwärtsstreckungen",
+      asana: "Parsvotanasana",
+      image_url: "/assets/imgs/focal-points/image01564.png",
+      description: "Vorwärtsstreckungen dehnen den Rücken und die Beine, sie beruhigen die Gedanken und Gefühle."
+    },
+    {
+      title: "Drehungen",
+      asana: "Parivrtta Parsvakonasana",
+      image_url: "/assets/imgs/focal-points/image02280.png",
+      description: "Drehungen rotieren den Körper um seine Wirbelsäule. Sie stärken und dehnen zugleich Bauch- und Rückenmuskeln und unterstützen die Verdauung."
+    },
+    {
+      title: "Rückwärtsstreckungen",
+      asana: "Urdhva Dhanurasana",
+      image_url: "/assets/imgs/focal-points/image00400.png",
+      description: "Rückwärtsstreckungen öffnen den Brustkorb und dehnen den Bauch. Sie aktivieren den Kreislauf, machen wach und können helfen Depressionen zu lindern.
+  Die hier gezeigte Rückwärtsstreckung ist eine fortgeschrittene, es wird schrittweise darauf hingeführt."
+    },
+    {
+      title: "Umkehrhaltungen",
+      asana: "Adho Mukha Vrksasana",
+      image_url: "/assets/imgs/focal-points/image05498.png",
+      description: "Umkehrhaltungen fördern die Durchblutung des Gehirns, aktivieren den Geist und wirken
+  ausgleichend auf die Psyche. Besonders wichtig sind dabei der Kopf- und der Schulterstand. Der
+  Schulterstand wird im Iyengar Yoga mit erhöhten Schultern geübt, damit die Halswirbelsäule
+  entlasten wird."
+    },
+    {
+      title: "Regenerativ",
+      asana: "Sirsasana aus dem Seil",
+      image_url: "/assets/imgs/focal-points/image06500.png",
+      description: "Regenerierende Haltungen führen zu einer Erholung des Körpers und des Geistes. Diese entspannenden und öffnen den Haltungen eignen sich dazu, Atemübungen (pranayama) vorzubereiten."
+    }
+  ]
+}
+
+iyengar_quote: {
+  text: "“Yoga ist die Methode, durch die der unruhige Geist beruhigt <br>und die Energie in schöpferische Bahnen gelenkt wird.”",
+  source: "- B.K.S. Iyengar"
+}
+
+about_iyengar_yoga_section: {
+  title: "Über Iyengar Yoga",
+  paragraphs_html: [
+    "<p>Grundlegend für den Stil des Iyengar® Yoga sind die Übung von Yogahaltungen (asanas) und Atemübungen (pranayama). Das regelmässige und präzise Praktizieren unter Anleitung schärft die Konzentration und führt zu innerer Ruhe.</p>",
+    "<p>Da Iyengar® Yoga-Lehrende einen mehrjährigen, umfassenden Ausbildungs- und Prüfungsprozess durchlaufen, können sie auf die individuellen Bedürfnisse ihrer Schüler*innen eingehen und diese mit konkreten Hilfestellungen unterstützen.</p>",
+    "<a href='' onclick='return showMore(this)'>Mehr über Iyengar Yoga</a>",
+    "<p class='show-more'>Asanas und pranayama verringern Stresssymptome, die emotionale Belastbarkeit wird erhöht und Blockaden schrittweise gelöst. Durch die Stärkung schwacher und das Loslassen verspannter Bereiche wird der Körper immer feiner und differenzierter wahrgenommen. Bei korrekter Übung entsteht ein stabiles Gleichgewicht von Körper und Geist. Iyengar® Yoga gibt dem Körper die natürliche Aufrichtung und Spannkraft, Verspannungen werden gelindert und Haltungsdefizite reduziert.</p>",
+    "<p class='show-more'>Besondere Hilfsmittel unterstützen die Übenden bei der Ausführung der Yoga-Haltungen. Zu ihnen zählen Gurte, Klötze, Stühle und Seile. Sie ermöglichen Menschen unterschiedlicher Konstitutionen (Alter, Gesundheit, körperliche Voraussetzungen) am Unterricht teilzunehmen und die korrekte Ausrichtung in den asanas zu finden. Iyengar® Yoga stärkt Muskeln und Nerven und hat einen positiven Einfluss auf die Gesundheit.</p>",
+    "<p class='show-more'>Da es sich bei dieser Methode um eine sehr gut dokumentierte und reproduzierbare Methode handelt, bildet er eine gute Basis für wissenschaftliche Studien und Therapiemethoden. Hier findest du Informationen dazu: <a href='https://iyengar-yoga-berlin.de/yoga-forschung/' target='_blank'>https://iyengar-yoga-berlin.de/yoga-forschung/</a></p>"
+  ],
+  image: {
+    url: "/assets/imgs/bks_iyengar_padma_mayurasana.jpeg",
+    caption: "Mayurasana, Licht auf Yoga",
   },
-  {
-    title: "Drehungen",
-    asana: "Parivrtta Parsvakonasana",
-    image: "image02280.png",
-    description: "Drehungen rotieren den Körper um seine Wirbelsäule. Sie stärken und dehnen zugleich Bauch- und Rückenmuskeln und unterstützen die Verdauung."
-  },
-  {
-    title: "Rückwärtsstreckungen",
-    asana: "Urdhva Dhanurasana",
-    image: "image00400.png",
-    description: "Rückwärtsstreckungen öffnen den Brustkorb und dehnen den Bauch. Sie aktivieren den Kreislauf, machen wach und können helfen Depressionen zu lindern.
-Die hier gezeigte Rückwärtsstreckung ist eine fortgeschrittene, es wird schrittweise darauf hingeführt."
-  },
-  {
-    title: "Umkehrhaltungen",
-    asana: "Adho Mukha Vrksasana",
-    image: "image05498.png",
-    description: "Umkehrhaltungen fördern die Durchblutung des Gehirns, aktivieren den Geist und wirken
-ausgleichend auf die Psyche. Besonders wichtig sind dabei der Kopf- und der Schulterstand. Der
-Schulterstand wird im Iyengar Yoga mit erhöhten Schultern geübt, damit die Halswirbelsäule
-entlasten wird."
-  },
-  {
-    title: "Regenerativ",
-    asana: "Sirsasana aus dem Seil",
-    image: "image06500.png",
-    description: "Regenerierende Haltungen führen zu einer Erholung des Körpers und des Geistes. Diese entspannenden und öffnen den Haltungen eignen sich dazu, Atemübungen (pranayama) vorzubereiten."
+  video: {
+    thumbnail_url: "/assets/imgs/video-thumbnail.jpeg",
+    video_url: "/assets/videos/Iyengar-Yoga-Deutschland.mp4"
   }
-]
+}
 
-newsList: [
-  {
-    title: "Neue Klassen verfügbar",
-    date: "12.1.2024",
-    description: "Neue Klassen verfügbar - sehr kurz."
-  },
-  {
-    title: "Klasse fällt aus",
-    description: "Klasse fällt aus, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Klasse fällt aus, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-  },
-  {
-    date: "20.12.2023",
-    description: "Ohne Titel - ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
-  },
-  {
-    title: "Neue Klasse mit Susi",
-    date: "5.1.2024"
-  },
-]
+masui_quote: {
+  text: "„Yoga ist nichts anderes als die volle Erfahrung des menschlichen Lebens; <br>er ist eine Wissenschaft vom innerlich geeinten Menschen!“",
+  source: "- Jaques S. Masui"
+}
 
-slider: [
-  "image00289.jpeg", "image00400.jpeg", "image00735.jpeg"
-]
+about_iyengar_family: {
+  image: {
+    url: "/assets/imgs/geeta.png",
+    caption: "Yoga für die Frau, Geeta S. Iyengar"
+  },
+  title: "Die Iyengars",
+  paragraphs_html: [
+    "<p>Bellur Krishnamachar Sundararaja (B.K.S.) Iyengar war der Begründer dieses Yoga-Stils. Er unterstützte den Weg des modernen Yoga in den Westen. In vielen Jahren des Selbststudiums entwickelte er seinen eigenen Stil. Dieser gründet auf seiner unermüdlichen Genauigkeit und seines Perfektionismus der Yoga-Haltungen. Berühmt wurde er vor allem durch sein Buch „Licht auf Yoga“, dass 1966 erschien und über 200 asanas abbildet. Bis heute ist dieses Buch eine wichtige Grundlage für Yoga-Übende. Bis kurz vor seinem Tod übte und forschte B.K.S. Iyengar mehrere Stunden täglich in seinem Institut in Pune, Indien. Im August 2014 verstarb er im Alter von 96 Jahren.</p>",
+    "<p>Geeta S. Iyengar war B.K.S. Iyengars älteste Tochter und wird als „ die weltweit führende weibliche Yoga-Lehrerin“ betitelt. Sie wurde von klein auf von ihrem Vater unterrichtet und entwickelte die Iyengar Methode für die Bedürfnisse von Frauen weiter. Sie erarbeitete spezifische Übungssequenzen für Frauen unterschiedlicher Lebensphasen, wie Menstruation, Schwangerschaft und Menopause. Geeta ist am im Dezember 2018 verstorben.</p>",
+    "<p>Abhijata Iyengar, Iyengars Enkeltochter führt das Ramamani Iyengar Memorial Yoga (RIMY) Institut in Pune, Indien gemeinsam mit ihrem Onkel Prashant Iyengar weiter. B.</p>"
+  ]
+}
+
+newsletter_section: {
+  title: "Melde dich zu meinem Newsletter an",
+  newsletter_link: {
+    url: "http://eepurl.com/iG65VQ",
+    text: "Zum Newsletter"
+  }
+}
+
+
+# Technical settings
+## WARNING DO NOT MODIFY THIS
+theme: minima
 
 collections:
   legal_pages:

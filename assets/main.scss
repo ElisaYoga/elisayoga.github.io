@@ -452,7 +452,7 @@ video {
   color: $text-color;
 }
 
-#iyengar-focal-points {
+#focal-points {
 	text-align: center;
 	.inline-bullet-list {
 		.bullet {
@@ -514,7 +514,7 @@ video {
 }
 
 @media screen and (min-width: $on-laptop) {
-	#iyengar-focal-points {
+	#focal-points {
 		.cards {
 			margin-top: 50px;
 			display: grid;
@@ -525,7 +525,7 @@ video {
 	}
 }
 @media screen and (min-width: $on-laptop * 1.5) {
-	#iyengar-focal-points {
+	#focal-points {
 		.cards {
 			margin-top: 50px;
 			display: grid;

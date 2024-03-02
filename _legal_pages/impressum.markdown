@@ -21,16 +21,15 @@ title: Impressum
 	{{ site.impressum.uid }}
 
 	<h3>Mitgliedschaften bei der Wirtschaftskammerorganisation</h3>
-	Mitglied der WKÖ, WKW
+	{{ site.impressum.memberships }}
 
 	<h3>Behörde gem. ECG</h3>
-	Magistratisches Bezirksamt des XII. Bezirkes
+	{{ site.impressum.ecg_authority }}
 
 	<h3>Anwendbare Rechtsvorschriften</h3>
-	Gewerbeordnung abrufbar unter <a href="https://www.ris.bka.gv.at/" target="_BLANK">https://www.ris.bka.gv.at/</a>
+	{{ site.impressum.legislation }}
 
 	<h3>Angaben zur Online-Streitbeilegung</h3>
-	Verbraucher haben die Möglichkeit, Beschwerden an die Online-Streitbeilegungsplattform der EU zu richten: <a href="http://ec.europa.eu/odr" target="_BLANK">http://ec.europa.eu/odr</a>. <br>
-	Sie können allfällige Beschwerde auch an die oben angegebene E-Mail-Adresse richten.
+	{{ site.impressum.complaints }}
 </div>
 

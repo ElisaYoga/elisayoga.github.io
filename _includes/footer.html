@@ -2,8 +2,8 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">  
     <div id="newsletter">
-      <h2>Melde dich zu meinem Newsletter an</h2>
-      <a class="btn-primary" href="{{ site.newsletter }}" target="_blank">Zum Newsletter</a>
+      <h2>{{ site.newsletter_section.title }}</h2>
+      <a class="btn-primary" href="{{ site.newsletter_section.newsletter_link.url }}" target="_blank">{{ site.newsletter_section.newsletter_link.text }}</a>
     </div>
     <div class="legal-pages">
       {%- for my_page in site.legal_pages -%}
