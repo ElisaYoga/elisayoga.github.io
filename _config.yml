@@ -87,7 +87,9 @@ navigation: {
 
 calendar_section: {
   title: "Kalender",
-  calendar_url: "https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=elisayoga.at&amp;lang=de"
+  width: "100%",
+  height: "900",
+  calendar_url: "https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=PLUGIN&amp;lang=en&amp;scheduleType=schedule"
 }
 
 about_section: {

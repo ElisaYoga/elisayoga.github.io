@@ -42,7 +42,10 @@ layout: home
 <section id="calendar">
 	<h2>{{ site.calendar_section.title }}</h2>
 	<div class="wrapper calendar">
-		<iframe width="100%" height="900" src="{{ site.calendar_section.calendar_url }}"></iframe>
+		<iframe 
+		width="{{ site.calendar_section.width }}" 
+		height="{{ site.calendar_section.height }}" 
+		src="{{ site.calendar_section.calendar_url }}"></iframe>
 	</div>
 </section>
 <section id="about">
