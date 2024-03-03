@@ -453,6 +453,9 @@ video {
 #focal-points {
 	text-align: center;
 	.inline-bullet-list {
+		display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 		.bullet {
 	    margin-right: 5px;
 		}
