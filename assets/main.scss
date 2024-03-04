@@ -452,18 +452,6 @@ video {
 
 #focal-points {
 	text-align: center;
-	.inline-bullet-list {
-		display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-		.bullet {
-	    margin-right: 5px;
-		}
-		.bullet:not(:last-child)::after {
-	    content: '•';
-	    margin-left: 5px;
-	  }
-	}
 	.cards {
 		/*margin-top: 50px;
 		display: grid;

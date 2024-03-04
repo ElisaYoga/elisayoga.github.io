@@ -64,11 +64,6 @@ layout: home
 	<div class="wrapper">
 		<div id="focal-points">
 			<h2>{{ site.focal_points_section.title }}</h2>
-			 <div class="inline-bullet-list">
-			 	{%- for focal_point in site.focal_points_section.focal_points -%}
-			 	<span class="bullet">{{focal_point.title}}</span>
-				{%- endfor -%}
-			</div>
 			 <p>{{ site.focal_points.text }}</p>
 			 <div class="cards">
 			 	{%- for focal_point in site.focal_points_section.focal_points -%}
