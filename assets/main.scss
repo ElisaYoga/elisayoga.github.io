@@ -282,7 +282,7 @@ video {
 	.masonry {
 	  column-count: 2;
 	  column-gap: 30px;
-	  *  {
+		.news {
 		  margin: 0;
 		  display: grid;
 		  grid-template-rows: 1fr auto;
@@ -290,8 +290,6 @@ video {
 		  break-inside: avoid;
 		}
 	}
-
-	
 }
 
 .single-rounded-corner {

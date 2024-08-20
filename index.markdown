@@ -44,6 +44,9 @@ layout: home
 	<div class="wrapper calendar">
 		{{ site.calendar_section.calendar_html }}
 	</div>
+	<div class="wrapper shop">
+		<iframe width="100%" height="600" src="https://site.arboxapp.com/shop?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=PLUGIN&amp;lang=en"></iframe>
+	</div>
 </section>
 <section id="about">
 	<div class="wrapper">
