@@ -50,9 +50,9 @@ news_section: {
   title: "Neuigkeiten",
   news: [
   {
-    title: "Neue Kurse",
-    date: "ab 10.9.2024",
-    description: "Dienstag, 19.00 - 20.30 Uhr Level 1-2; weitere Kurse: Level 1 und 55+ folgen. Die Termine werden Mitte September bekannt gegeben"
+    title: "Neue Kurse ab 10.9.2024",
+    description: "Dienstag, 19.00 - 20.30 Uhr Level 1-2; weitere Kurse: Level 1 und 55+ folgen. 
+    Die Termine werden Mitte September bekannt gegeben"
   }
   #  {
   #    title: "Neue Webseite",
