@@ -51,13 +51,15 @@ news_section: {
   news: [
     {
       title: "Neue Kurse ab 10.9.2024",
-      description: "Dienstag, 19.00 - 20.30 Uhr: Level 1-2; Mittwoch, 13.30 - 14.45 Uhr: Yoga 55+ ; Donnerstag, 7.30 - 8.30 Uhr, Level 1"
+      description: "Dienstag, 19.00 - 20.30 Uhr: <strong>Level 1-2</strong>
+       <br> Mittwoch, 13.30 - 14.45 Uhr: <strong>Yoga 55+</strong> 
+      <br> Donnerstag, 7.30 - 8.30 Uhr, <strong>Level 1</strong>"
     },
     {
     title: "Welcher Kurs ist der Richtige für mich?",
     description: "
-      <strong>Yoga 1</strong>: Die Klassen sind offen für Anfänger*innen. Hier werden die Grundlagen des Iyengar Yogas, insbesondere Stehhaltungen, unterrichtet. Der Einstieg ist jederzeit möglich. 
-      <br><strong>Yoga 1-2</strong>: Diese Klasse ist sowohl offen für Anfänger*innen, wie auch Iyengar Yoga Geübte.  Es werden einfache grundlegende Asanas gelernt und geübt. Je nach Vorkenntnissen und Bedürfnissen der Teilnehmer*innen werden etwas herausfordernde Asanas angeleitet. Neben den grundlegenden Yogahaltungen erwarten dich auch Umkehrstellungen (Kopf- und Schulterstand). 
+      <strong>Level 1</strong>: Die Klassen sind offen für Anfänger*innen. Hier werden die Grundlagen des Iyengar Yogas, insbesondere Stehhaltungen, unterrichtet. 
+      <br><strong>Level 1-2</strong>: Diese Klasse ist sowohl offen für Anfänger*innen, wie auch Iyengar Yoga Geübte.  Es werden einfache grundlegende Asanas gelernt und geübt. Je nach Vorkenntnissen und Bedürfnissen der Teilnehmer*innen werden etwas herausfordernde Asanas angeleitet. Neben den grundlegenden Yogahaltungen erwarten dich auch Umkehrstellungen (Kopf- und Schulterstand). 
       <br><strong>Yoga 55+</strong>: Für Yogaübende ab 55 Jahren aufwärts und Senior*innen. An der Klasse können sowohl rüstige Anfänger*innen, wie auch langjährig Yogaübende teilnehmen, die ihre Praxis an ein höheres Lebensalter anpassen wollen."
     }
   ]
