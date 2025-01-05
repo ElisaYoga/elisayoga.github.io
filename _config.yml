@@ -50,9 +50,9 @@ news_section: {
   title: "Neuigkeiten",
   news: [
     {
-      title: "Neue Kurse ab 10.9.2024",
+      title: "Regelmässige Kurse",
       description: "Dienstag, 19.00 - 20.30 Uhr: <strong>Level 1-2</strong>
-       <br> Mittwoch, 13.30 - 14.45 Uhr: <strong>Level 1</strong>"
+       <br> Mittwoch, 14.00 - 15.15 Uhr: <strong>Yoga 55+</strong>"
     },
     {
       title: "Welcher Kurs ist der Richtige für mich?",
