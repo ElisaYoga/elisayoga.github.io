@@ -45,44 +45,30 @@ slider_image_urls: [
   "image00400.jpeg", 
   "image00735.jpeg"
 ]
-
-news_section: {
-  title: "Neuigkeiten",
-  news: [
-    {
-      title: "Regelmässige Kurse",
-      description: "Dienstag, 19.00 - 20.30 Uhr: <strong>Level 1-2</strong>
-       <br> Mittwoch, 14.00 - 15.15 Uhr: <strong>Level 1</strong>"
-    },
-    {
-      title: "Welcher Kurs ist der Richtige für mich?",
-      description: "
-        <strong>Level 1-2</strong>: Diese Klasse ist sowohl offen für Anfänger*innen, wie auch Iyengar Yoga Geübte.  Es werden einfache grundlegende Asanas gelernt und geübt. Je nach Vorkenntnissen und Bedürfnissen der Teilnehmer*innen werden etwas herausfordernde Asanas angeleitet. Neben den grundlegenden Yogahaltungen erwarten dich auch Umkehrstellungen (Kopf- und Schulterstand). Dieser Kurs findet im Hearthfire, Villacher Ring 45, in Klagenfurt statt.
-        <br><strong>Level 1</strong>: Dieser Kurs richtet sich an Anfänger*innen im Iyengar Yoga. Schreibe mir, wenn du teilnehmen möchtest, der Ort wird bei Interesse bekannt gegeben.
-        <br><strong>Workshops</strong>: Es finden Workshops statt, um die Grundlagen des Iyengar Yoga kennen zu lernen. Du kannst hier mitmachen, um Iyengar Yoga kennen zu lernen und um deine Praxsis zu intensivieren."
-    },
-    {
-      title: "Workshops in Klagenfurt",
-      description: " An den folgenden Terminen kannst du Iyengar Yoga kennen lernen:
-       
-   <br><strong> 8.3.2025, 9.30 - 11.30 Uhr</strong>
-   <br><strong> 10.5.2025, 9.30 - 11.30 Uhr </strong>
-    },
-{,
-      title: "Workshops mit Stefano Bendandi",
-      description: "
-     Stefano ist ein Iyengar Yoga Lehrer mit langjähriger Erfahrung. Er ist regelmässig im Iyengar Yoga Studio in Pune und hat mittlerweile über 70 Workshops gehalten. Sein Besuch wird jedenfalls ein Erlebnis gleich vor der Haustüre. Lass dir das nicht entgehen!
-      Hier sind die Zeiten des Workshops, der von 16.-18.5.2025 stattfindet:
-<br>Freitag, 16.5.2025, 15.00 - 17.30 Uhr
-<br>Samstag, 17.5.2025, 9.30 - 12.00 Uhr und 14.00 - 16.30 Uhr
-<br>Sonntag, 18.5.2025, 9.30 - 12.00 Uhr
-     <br> Ort: Progress Zentrum, Dr.-Richard-Canavalgasse 110, 9020 Klagenfurt
-      <br> Preis für den Workhshop: 190 €, early bird bis 15.3.2025: 160 €
-      
-    
-    
-    }  ]
+{
+  "news_section": {
+    "title": "Neuigkeiten",
+    "news": [
+      {
+        "title": "Regelmäßige Kurse",
+        "description": "Dienstag, 19.00 - 20.30 Uhr: <strong>Level 1-2</strong><br>Mittwoch, 14.00 - 15.15 Uhr: <strong>Level 1</strong>"
+      },
+      {
+        "title": "Welcher Kurs ist der Richtige für mich?",
+        "description": "<strong>Level 1-2</strong>: Diese Klasse ist sowohl offen für Anfänger*innen als auch für Iyengar-Yoga-Geübte. Es werden einfache, grundlegende Asanas gelernt und geübt. Je nach Vorkenntnissen und Bedürfnissen der Teilnehmer*innen werden etwas herausfordernde Asanas angeleitet. Neben den grundlegenden Yogahaltungen erwarten dich auch Umkehrstellungen (Kopf- und Schulterstand). Dieser Kurs findet im Hearthfire, Villacher Ring 45, in Klagenfurt statt.<br><br><strong>Level 1</strong>: Dieser Kurs richtet sich an Anfänger*innen im Iyengar Yoga. Schreibe mir, wenn du teilnehmen möchtest, der Ort wird bei Interesse bekannt gegeben.<br><br><strong>Workshops</strong>: Es finden Workshops statt, um die Grundlagen des Iyengar Yoga kennenzulernen. Du kannst hier mitmachen, um Iyengar Yoga kennenzulernen und um deine Praxis zu intensivieren."
+      },
+      {
+        "title": "Workshops in Klagenfurt",
+        "description": "An den folgenden Terminen kannst du Iyengar Yoga kennenlernen:<br><br><strong>8.3.2025, 9.30 - 11.30 Uhr</strong><br><strong>10.5.2025, 9.30 - 11.30 Uhr</strong>"
+      },
+      {
+        "title": "Workshops mit Stefano Bendandi",
+        "description": "Stefano ist ein Iyengar-Yoga-Lehrer mit langjähriger Erfahrung. Er ist regelmäßig im Iyengar-Yoga-Studio in Pune und hat mittlerweile über 70 Workshops gehalten. Sein Besuch wird jedenfalls ein Erlebnis gleich vor der Haustüre. Lass dir das nicht entgehen!<br><br>Hier sind die Zeiten des Workshops, der von 16.-18.5.2025 stattfindet:<br><br><strong>Freitag, 16.5.2025, 15.00 - 17.30 Uhr</strong><br><strong>Samstag, 17.5.2025, 9.30 - 12.00 Uhr und 14.00 - 16.30 Uhr</strong><br><strong>Sonntag, 18.5.2025, 9.30 - 12.00 Uhr</strong><br><br><strong>Ort:</strong> Progress Zentrum, Dr.-Richard-Canavalgasse 110, 9020 Klagenfurt<br><strong>Preis für den Workshop:</strong> 190 €, Early Bird bis 15.3.2025: 160 €"
+      }
+    ]
+  }
 }
+
 
 navigation: {
   left: [
