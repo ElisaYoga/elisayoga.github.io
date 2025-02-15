@@ -45,7 +45,7 @@ slider_image_urls: [
   "image00400.jpeg", 
   "image00735.jpeg"
 ]
-{:
+{
   "news_section": {
     "title": "Neuigkeiten",
     "news": [
