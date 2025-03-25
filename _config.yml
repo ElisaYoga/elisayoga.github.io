@@ -48,27 +48,10 @@ slider_image_urls: [
 news_section:
   title: "Neuigkeiten"
   news:
-    - title: "Regelmäßige Kurse"
-      description: "Dienstag, 19.00 - 20.30 Uhr: <strong>Level 1-2</strong><br>Mittwoch, 14.00 - 15.15 Uhr: <strong>Level 1</strong>"
+    - title: "Nachwuchspause"
+      description: "Ich biete ab Herbst 2025 erneut regelmässige Kurse in Klagenfurt an. Melde dich zu meinem Newsletter an, um rechtzeitig informiert zu werden."
       
-    - title: "Welcher Kurs ist der Richtige für mich?"
-      description: |
-        <strong>Level 1-2</strong>: Diese Klasse ist sowohl offen für Anfänger*innen als auch für Iyengar-Yoga-Geübte. 
-        Es werden einfache, grundlegende Asanas gelernt und geübt. Je nach Vorkenntnissen und Bedürfnissen der Teilnehmer*innen werden etwas herausfordernde Asanas angeleitet. 
-        Neben den grundlegenden Yogahaltungen erwarten dich auch Umkehrstellungen (Kopf- und Schulterstand). 
-        Dieser Kurs findet im Hearthfire, Villacher Ring 45, in Klagenfurt statt.
-        
-        <strong>Level 1</strong>: Dieser Kurs richtet sich an Anfänger*innen im Iyengar Yoga. Schreibe mir, wenn du teilnehmen möchtest, der Ort wird bei Interesse bekannt gegeben.
-        
-        <strong>Workshops</strong>: Es finden Workshops statt, um die Grundlagen des Iyengar Yoga kennenzulernen. 
-        Du kannst hier mitmachen, um Iyengar Yoga kennenzulernen und um deine Praxis zu intensivieren.
-        
-    - title: "Workshops in Klagenfurt"
-      description: |
-        An den folgenden Terminen kannst du Iyengar Yoga kennen lernen:
-        
-        <strong>8.3.2025, 9.30 - 11.30 Uhr</strong>
-        <strong>10.5.2025, 9.30 - 11.30 Uhr</strong>
+
         
     - title: "Workshop im Mai mit Stefano Bendandi"
       description: |
