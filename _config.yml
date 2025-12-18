@@ -48,26 +48,28 @@ slider_image_urls: [
 news_section:
   title: "Neuigkeiten"
   news:
-    - title: "Nachwuchspause"
-      description: "Ich biete ab Herbst 2025 erneut regelmässige Kurse in Klagenfurt an. Melde dich zu meinem Newsletter an, um rechtzeitig informiert zu werden."
+    - title: "Ankündigungen für 2026"
+      description: "Monatliche Workshops in Klagenfurt",
+
+Ich biete ab 3.Jänner 2026 monatliche Workshops im Hearthfire Yoga (Villacher Ring 45) in Klagenfurt an. Du kannst Dich direkt bei mir über info@elisayoga.at oder über https://www.hearthfireyoga.at/stundenplan anmelden.
+
+
+Ich plane diese Termine als offene Stunden, an denen ohne bestimmte Voraussetzungen teilgenommen werden kann. In jedem Workshop üben wir mit einem anderen Schwerpunkt. Iyengar Yoga kann auch mit körperlichen Einschränkungen praktiziert werden. In diesem Fall zeige ich Dir Alternativen mit Hilfsmitteln wie der Wand, Stühlen oder Blöcken.
+
+Termine:
+3.Jänner.2026
+21.2.
+21.3.
+18.4.
+9.5.
+13.6.
+
+Uhrzeit:
+9.30 - 11.30 Uhr
+
+Kosten:
+30 € pro Workshop."
       
-
-        
-    - title: "Workshop im Mai mit Stefano Bendandi"
-      description: |
-        Stefano ist ein Iyengar-Yoga-Lehrer mit langjähriger Erfahrung. Er ist regelmäßig im Iyengar-Yoga-Studio in Pune und hat mittlerweile über 70 Workshops gehalten. 
-        Sein Besuch wird jedenfalls ein Erlebnis gleich vor der Haustüre. Lass dir das nicht entgehen!
-        
-        Hier sind die Zeiten des Workshops, der von 16.-18.5.2025 stattfindet:
-        
-        <strong>Freitag, 16.5.2025, 15.00 - 17.30 Uhr</strong>
-        <strong>Samstag, 17.5.2025, 9.30 - 12.00 Uhr und 14.00 - 16.30 Uhr</strong>
-        <strong>Sonntag, 18.5.2025, 9.30 - 12.00 Uhr</strong>
-        
-        <strong>Ort:</strong> Progress Zentrum, Dr.-Richard-Canavalgasse 110, 9020 Klagenfurt  
-        <strong>Preis für den Workshop:</strong> 190 €, Early Bird bis 15.3.2025: 160 €
-
-
 
 navigation: {
   left: [
