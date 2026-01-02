@@ -96,12 +96,13 @@ navigation: {
 
 calendar_section: {
   title: "Kalender",
-  calendar_html: "<iframe 
-                  width='100%' 
-                  height='900' 
-                  src='https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=PLUGIN&amp;lang=en&amp;scheduleType=schedule'>
-                </iframe>"
+  calendar_html: "<div class='calendar-wrapper'>
+                  <iframe 
+                    src='https://site.arboxapp.com/schedule?identifier=SwxyldKI&amp;whitelabel=Arbox&amp;referer=PLUGIN&amp;lang=en&amp;scheduleType=schedule'>
+                  </iframe>
+                </div>"
 }
+
 
 about_section: {
   image: {
