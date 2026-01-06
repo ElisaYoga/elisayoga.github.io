@@ -45,30 +45,31 @@ slider_image_urls: [
   "image00400.jpeg", 
   "image00735.jpeg"
 ]
-news_section:
-  title: "Neuigkeiten"
-  news:
-    - title: "Ankündigungen für 2026"
-      description: |
-        Ab 3. Jänner 2026 biete ich monatliche Workshops im Hearthfire Yoga
-        (Villacher Ring 45) in Klagenfurt an.
-        <p>
-        Die Workshops sind offen für alle Erfahrungsstufen und widmen sich jeweils
-        einem eigenen Schwerpunkt. Iyengar Yoga ist auch bei körperlichen
-        Einschränkungen geeignet; entsprechende Varianten mit Hilfsmitteln werden
-        angeboten.
-        <p>
-        Termine: 3.1. · 21.2. · 21.3. · 18.4. · 9.5. · 13.6.2026
-        <p>
-        Uhrzeit: 9:30–11:30 Uhr
-        <p>
-        Kosten: 30 € pro Workshop
-        <p>
-        Anmeldung: info@elisayoga.at oder www.hearthfireyoga.at/stundenplan
 
+news: |
+  <h3>Ankündigungen für 2026</h3>
 
+  <h4>Monatliche Workshops in Klagenfurt</h4>
 
-      
+  <p>Ich biete ab 3. Jänner 2026 monatliche Workshops im Hearthfire Yoga (Villacher Ring 45) in Klagenfurt an. Du kannst Dich direkt bei mir über info@elisayoga.at oder über <a href="https://www.hearthfireyoga.at/stundenplan" target="_blank">https://www.hearthfireyoga.at/stundenplan</a> anmelden.</p>
+
+  <p>Ich plane diese Termine als offene Stunden, an denen ohne bestimmte Voraussetzungen teilgenommen werden kann. In jedem Workshop üben wir mit einem anderen Schwerpunkt. Iyengar Yoga kann auch mit körperlichen Einschränkungen praktiziert werden. In diesem Fall zeige ich Dir Alternativen mit Hilfsmitteln wie der Wand, Stühlen oder Blöcken.</p>
+
+  <h5>Termine:</h5>
+  <ul>
+  <li>3.1.</li>
+  <li>21.2.</li>
+  <li>21.3.</li>
+  <li>18.4.</li>
+  <li>9.5.</li>
+  <li>13.6.</li>
+  </ul>
+
+  <h5>Uhrzeit:</h5>
+  <p>9.30 - 11.30 Uhr</p>
+
+  <h5>Kosten:</h5>
+  <p>30 € pro Workshop</p>
 
 navigation: {
   left: [

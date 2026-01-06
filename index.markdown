@@ -15,27 +15,11 @@ layout: home
 	{%- endif -%}
 
 </section>
-{%- if(site.news_section && site.news_section.news && site.news_section.news.length > 0) -%}
+{%- if(site.news) -%}
 <section id="news-section">
+	<h2>Neuigkeiten</h2>
 	<div class="wrapper">
-		<h2>{{ news_section.title }}</h2>
-		<div id="news-list" class="masonry">
-			{%- for news in site.news_section.news -%}
-		 		<div class="news">
-		 			<div class="news-header">
-			 			{%- if(news.title) -%}
-			 			<h4>{{news.title}}</h4>
-			 			{%- endif -%}
-			 			{%- if(news.date) -%}
-			 			<h5 class="news-date">{{news.date}}</h5>
-			 			{%- endif -%}
-		 			</div>
-		 			{%- if(news.description) -%}
-		 			<p>{{news.description}}</p>
-		 			{%- endif -%}
-		 		</div>
-			{%- endfor -%}
-		</div>
+		{{site.news}}
 	</div>
 </section>
 {%- endif -%}
