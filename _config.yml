@@ -49,7 +49,7 @@ slider_image_urls: [
 news: |
  <h3>Ankündigungen für 2026</h3>
 
-<h4><b>Monatliche Workshops in Klagenfurt</b></h4>
+<h4>Monatliche Workshops in Klagenfurt</h4>
 
 <p>
 Ich biete monatliche Workshops im Hearthfire Yoga (Villacher Ring 45) in Klagenfurt an.
@@ -58,24 +58,23 @@ Du kannst Dich direkt bei mir über info@elisayoga.at oder über
 anmelden.
 </p>
 
-<div style="background:#f7f7f7; padding:15px; border-radius:8px; margin-top:15px; margin-bottom:35px;">
+<p><b>Termine</b></p>
+<ul>
+<li>21.3.2026 – noch 3 freie Plätze</li>
+<li>18.4.2026</li>
+<li>9.5.2026</li>
+<li>13.6.2026</li>
+</ul>
 
-<b>Termine</b><br>
-21.3.2026 – noch 3 freie Plätze<br>
-18.4.2026<br>
-9.5.2026<br>
-13.6.2026<br><br>
+<p><b>Uhrzeit</b><br>
+9.30 – 11.30 Uhr</p>
 
-<b>Uhrzeit</b><br>
-9.30 – 11.30 Uhr<br><br>
+<p><b>Kosten</b><br>
+30 € pro Workshop</p>
 
-<b>Kosten</b><br>
-30 € pro Workshop
+<br><br>
 
-</div>
-
-
-<h4><b>Neuer Kurs Yoga 1–2 ab Mai 2026</b></h4>
+<h4>Neuer Kurs Yoga 1–2 ab Mai 2026</h4>
 
 <p>
 Ich unterrichte 10 Einheiten im SOUL!GYM (Karfreitstraße 6, Klagenfurt).
@@ -87,19 +86,14 @@ Vorwärtsstreckungen und Drehungen, Rückwärtsstreckungen sowie regenerative Pr
 werden abwechselnd geübt. Du kannst ohne Vorkenntnisse an diesem Kurs teilnehmen.
 </p>
 
-<div style="background:#f7f7f7; padding:15px; border-radius:8px; margin-top:15px;">
-
-<b>Termine</b><br>
+<p><b>Termine</b><br>
 Montags vom 4.5.2026 bis 13.7.2026<br>
-Kein Unterricht am 1.6.2026<br><br>
+Kein Unterricht am 1.6.2026</p>
 
-<b>Kosten</b><br>
+<p><b>Kosten</b><br>
 Einzelkarte 22 €<br>
 5er Block 95 €<br>
-10er Block 185 €
-
-</div>
-     
+10er Block 185 €</p>
 
 
 navigation: {
