@@ -47,53 +47,45 @@ slider_image_urls: [
 ]
 
 news: |
- <h3>Ankündigungen für 2026</h3>
+  <h3>Ankündigungen für 2026</h3>
 
-<h4>Monatliche Workshops in Klagenfurt</h4>
+  <h4><b>Monatliche Workshops in Klagenfurt</b></h4>
 
-<p>
-Ich biete monatliche Workshops im Hearthfire Yoga (Villacher Ring 45) in Klagenfurt an.
-Du kannst Dich direkt bei mir über info@elisayoga.at oder über
-<a href="https://www.hearthfireyoga.at/stundenplan" target="_blank">den Stundenplan von Hearthfire Yoga</a>
-anmelden.
-</p>
+  <p>Ich biete monatliche Workshops im Hearthfire Yoga (Villacher Ring 45) in Klagenfurt an.
+  Du kannst Dich direkt bei mir über info@elisayoga.at oder über
+  <a href="https://www.hearthfireyoga.at/stundenplan" target="_blank">https://www.hearthfireyoga.at/stundenplan</a>
+  anmelden.</p>
 
-<p><b>Termine</b></p>
-<ul>
-<li>21.3.2026 – noch 3 freie Plätze</li>
-<li>18.4.2026</li>
-<li>9.5.2026</li>
-<li>13.6.2026</li>
-</ul>
+  <h5>Termine:</h5>
+  <ul>
+    <li>21.3.2026, noch 3 freie Plätze</li>
+    <li>18.4.2026</li>
+    <li>9.5.2026</li>
+    <li>13.6.2026</li>
+  </ul>
 
-<p><b>Uhrzeit</b><br>
-9.30 – 11.30 Uhr</p>
+  <h5>Uhrzeit:</h5>
+  <p>9.30 – 11.30 Uhr</p>
 
-<p><b>Kosten</b><br>
-30 € pro Workshop</p>
+  <h5>Kosten:</h5>
+  <p>30 € pro Workshop</p>
 
-<br><br>
+  <h4><b>Neuer Kurs Yoga 1–2 ab Mai 2026</b></h4>
 
-<h4>Neuer Kurs Yoga 1–2 ab Mai 2026</h4>
+  <p>Ich unterrichte 10 Einheiten im SOUL!GYM (Karfreitstraße 6, Klagenfurt).</p>
 
-<p>
-Ich unterrichte 10 Einheiten im SOUL!GYM (Karfreitstraße 6, Klagenfurt).
-</p>
+  <p>Jede Einheit beschäftigt sich mit einem anderen Schwerpunkt: Stehhaltungen,
+  Vorwärtsstreckungen und Drehungen, Rückwärtsstreckungen sowie regenerative Praxis
+  werden abwechselnd geübt. Du kannst ohne Vorkenntnisse an diesem Kurs teilnehmen.</p>
 
-<p>
-Jede Einheit beschäftigt sich mit einem anderen Schwerpunkt: Stehhaltungen,
-Vorwärtsstreckungen und Drehungen, Rückwärtsstreckungen sowie regenerative Praxis
-werden abwechselnd geübt. Du kannst ohne Vorkenntnisse an diesem Kurs teilnehmen.
-</p>
+  <h5>Termine:</h5>
+  <p>Montags vom 4.5.2026 bis 13.7.2026, kein Unterricht am 1.6.2026</p>
 
-<p><b>Termine</b><br>
-Montags vom 4.5.2026 bis 13.7.2026<br>
-Kein Unterricht am 1.6.2026</p>
-
-<p><b>Kosten</b><br>
-Einzelkarte 22 €<br>
-5er Block 95 €<br>
-10er Block 185 €</p>
+  <h5>Kosten:</h5>
+  <p>Einzelkarte 22€</p>
+  <p>5er Block 95€</p>
+  <p>10er Block 185€</p>
+     
 
 
 navigation: {
